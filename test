@@ -1,0 +1,10 @@
+# Constants
+stars_per_sq_degree = 9.27
+angular_diameter_sq_degrees = 180
+area_sq_degrees = 41253
+area_sq_meters = 3.14 * 10**8
+
+# Calculations
+stars_per_sq_degree_to_sq_meters = stars_per_sq_degree * (area_sq_meters / angular_diameter_sq_degrees)
+
+print("Number of stars per square meter of visible sky:", stars_per_sq_degree_to_sq_meters)
